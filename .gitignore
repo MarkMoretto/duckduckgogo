@@ -23,4 +23,4 @@ go.work
 # Local
 dev[_-]*.*
 .vscode/
-
+data/
