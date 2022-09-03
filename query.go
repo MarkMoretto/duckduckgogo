@@ -63,11 +63,11 @@ func DemoXmlQuery() {
 }
 
 // Format test case output.
-const ResultFormat = `
+const TestResultFormat = `
 Actual:   %s
 Expected: %s
 `
 
 func formatTC(a, e string) string {
-	return strings.TrimLeft(fmt.Sprintf(ResultFormat, a, e), " ")
+	return strings.TrimLeft(fmt.Sprintf(TestResultFormat, a, e), " ")
 }

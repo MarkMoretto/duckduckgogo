@@ -1,0 +1,14 @@
+<rss version="2.0">
+	<channel>
+		<title>Florida Lottery Winning Numbers</title>
+		<link>http://www.flalottery.com</link>
+		<description>Florida Lottery winning number drawing results for FLORIDA LOTTO, MEGA MILLIONS, POWERBALL, CASH4LIFE, JACKPOT TRIPLE PLAY, LUCKY MONEY, FANTASY 5, Midday and Evening PICK 2, PICK3, PICK 4 and PICK 5</description>
+		<item game="powerball" nextjp="$140 Million" nextdd="Saturday, March 21, 2020" winnum="15-27-44-59-63 PB8 X4" windd="Wednesday, March 18, 2020" myflv="widget_pb.flv" winnumNM="15-27-44-59-63 PB8" name="POWERBALL">
+			<title>POWERBALL Drawing Results</title>
+			<link>http://www.flalottery.com/powerball.do</link>
+			<description>POWERBALL winning numbers are 15-27-44-59-63 PB8 X4 for 03/18/2020 and the next estimated Jackpot is $140 Million for 03/21/2020</description>
+			<pubDate>Fri, 20 Mar 2020 01:30:30 EST</pubDate>
+			<guid>http://www.flalottery.com/powerball.do</guid>
+		</item>
+	</channel>
+</rss>

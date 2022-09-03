@@ -16,6 +16,6 @@ func CheckXmlSchema() {
 	}
 	defer f.Close()
 	qData, _ := ioutil.ReadAll(f)
-	var ddgResp DDGResponse
+	var ddgResp XmlResponse
 	xml.Unmarshal(qData, &ddgResp)
 }
