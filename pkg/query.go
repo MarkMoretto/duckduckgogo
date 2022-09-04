@@ -1,4 +1,4 @@
-package main
+package pkg
 
 // Ref: https://duckduckgo.com/api
 

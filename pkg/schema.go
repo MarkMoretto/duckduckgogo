@@ -1,4 +1,4 @@
-package main
+package pkg
 
 // https://duckduckgo.com/api
 
@@ -66,8 +66,23 @@ type XmlResponse struct {
 	DefinitionURL        string
 	Results              []Result		`xml:"Results>Result"`
 	RelatedTopics        []RelatedTopic `xml:"RelatedTopics>RelatedTopic"`
-	RelatedTopicsSection []RelatedTopic `xml:"RelatedTopicsSection>RelatedTopic"`
-	
+	RelatedTopicsSection []RelatedTopic `xml:"RelatedTopicsSection>RelatedTopic"`	
+}
+
+func TypeDefinition(d string) string {
+	switch d {
+	case "A":
+		return "Article"
+	case "D":
+		return "Disambiguation"
+	case "C":
+		return "Category"
+	case "N":
+		return "Name"
+	case "E":
+		return "Exclusive"
+	}
+	return "Unknown"
 }
 
 // ---- Formatting and functions ---

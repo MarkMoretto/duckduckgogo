@@ -1,4 +1,4 @@
-package main
+package pkg
 
 // Shared functions and other effects.
 
