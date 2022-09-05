@@ -25,5 +25,5 @@ dev[_-]*.*
 .vscode/
 
 # Local folders
-data/
-scripts/
+data
+scripts
