@@ -13,14 +13,11 @@ const (
 
 // URL return format stringer.
 func (rf ReturnFormat) String() string {
-	return []string{"xml", "json"}[rf]
+	m := map[ReturnFormat]string{0:"xml", 1:"json"}
+	if _, ok := m[rf]; !ok {
+		return "unknown"
+	} else {
+		return m[rf]
+	}
 }
 
-
-// func (rf ReturnFormat) String() string {
-// 	m := map[string]bool{"xml":true, "json":true}
-// 	if _, ok := m[rf]; ok {
-// 		return ""
-// 	}
-// 	return map[string]bool{"xml":true, "json":true}[rf]
-// }

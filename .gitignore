@@ -23,4 +23,7 @@ go.work
 # Local
 dev[_-]*.*
 .vscode/
+
+# Local folders
 data/
+scripts/
