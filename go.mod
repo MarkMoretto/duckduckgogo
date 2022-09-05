@@ -1,3 +1,3 @@
-module github.com/markmoretto/go/duckduckgogo
+module github.com/markmoretto/duckduckgogo
 
 go 1.16
