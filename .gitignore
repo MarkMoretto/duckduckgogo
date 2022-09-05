@@ -23,7 +23,7 @@ go.work
 # Local
 dev[_-]*.*
 .vscode/
-./run.sh
+
 
 # Local folders
 data
